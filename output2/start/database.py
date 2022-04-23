@@ -9,7 +9,7 @@ try:
         host = 'localhost',
         user = 'root',
         passwd = '1234',
-        database = 'Shop2',
+        database = 'Shop',
         auth_plugin='mysql_native_password'
     )
     cursor = mysqlDB.cursor()
