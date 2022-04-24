@@ -2,6 +2,7 @@ from tkinter import messagebox
 import win32print
 import xlwings as xw
 
+
 def selectPrinter():
     try:
         Printers = win32print.EnumPrinters(win32print.PRINTER_ENUM_LOCAL, None, 2)
